@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="1006.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutY="-14.0" prefHeight="645.0" prefWidth="235.0" style="-fx-background-color: #000066;">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="200.0">
+               <image>
+                  <Image url="@../images/jimmy-fallon.png" />
+               </image>
+            </ImageView>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="542.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="OUEDRAOGO LUC">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="gUser" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="230.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Gestion des utilisateurs" textFill="#e7e5e5">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/menu1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="gAdmin" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Administrateurs">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="gRespo" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="288.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Responsables">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="gAsssist" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="330.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Assistants">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="gMembre" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="372.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Membres">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="cUser" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Creation d'utilisateurs">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/menu1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="cAdmin" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="288.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Administrateurs">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="cRespo" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="330.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Responsables">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="cAssist" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="372.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Assistants">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="cMembre" alignment="BASELINE_LEFT" graphicTextGap="22.0" layoutX="10.0" layoutY="414.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="225.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Membres">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Person_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnSignout" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="259.0" stylesheets="@../../../RestaurantMgtSampleUI-master/src/home/style.css" text="Sign Out">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../RestaurantMgtSampleUI-master/src/images/icons8_Sign_Out_32px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+      <ImageView fitHeight="140.0" fitWidth="770.0" layoutX="235.0">
+         <image>
+            <Image url="@../images/IND.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="235.0" layoutY="140.0" prefHeight="42.0" prefWidth="770.0" style="-fx-background-color: #EAEDED; -fx-border-color: #B7C3D7;" />
+      <TextField layoutX="354.0" layoutY="182.0" prefHeight="27.0" prefWidth="638.0" promptText="search" style="-fx-background-color: WHITE; -fx-border-color: #B7C3D7; -fx-border-radius: 2em;" />
+      <ImageView fitHeight="27.0" fitWidth="52.0" layoutX="912.0" layoutY="182.0">
+         <image>
+            <Image url="@../images/icons8_Search_52px.png" />
+         </image>
+      </ImageView>
+      <TableView layoutX="235.0" layoutY="240.0" prefHeight="200.0" prefWidth="746.0">
+         <columns>
+            <TableColumn fx:id="id" prefWidth="75.0" text="Id" />
+            <TableColumn fx:id="nom" prefWidth="75.0" text="Nom" />
+            <TableColumn fx:id="prenom" prefWidth="75.0" text="Prenom" />
+            <TableColumn fx:id="datenaiss" prefWidth="75.0" text="Date de naissance" />
+            <TableColumn fx:id="sexe" prefWidth="75.0" text="Sexe" />
+            <TableColumn fx:id="adress" prefWidth="75.0" text="Adresse" />
+            <TableColumn fx:id="email" prefWidth="75.0" text="E-Mail" />
+            <TableColumn fx:id="telephne" prefWidth="75.0" text="Telephone" />
+            <TableColumn fx:id="telephne1" prefWidth="75.0" text="Modifier" />
+            <TableColumn fx:id="telephne11" prefWidth="75.0" text="Supprimer" />
+         </columns>
+      </TableView>
+      <AnchorPane layoutX="1001.0" layoutY="-14.0" prefHeight="645.0" prefWidth="11.0" style="-fx-background-color: #EAEDED; -fx-border-color: #B7C3D7;" />
+      <AnchorPane layoutX="235.0" layoutY="589.0" prefHeight="42.0" prefWidth="770.0" style="-fx-background-color: #EAEDED; -fx-border-color: #B7C3D7;">
+         <children>
+            <Label layoutX="26.0" layoutY="1.0" prefHeight="27.0" prefWidth="295.0" text="Footer">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
